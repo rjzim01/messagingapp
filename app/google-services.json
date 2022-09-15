@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "895924208174",
+    "firebase_url": "https://messagingapp22-default-rtdb.firebaseio.com",
+    "project_id": "messagingapp22",
+    "storage_bucket": "messagingapp22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895924208174:android:5e7b39db2135da8baf15bf",
+        "android_client_info": {
+          "package_name": "com.example.messagingapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895924208174-0rj6c4c9g6jero1mtla8pu7bkmodh21f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCosM8mnzLHIx-JKM0Ag7ruWQk95o92ivs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895924208174-0rj6c4c9g6jero1mtla8pu7bkmodh21f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

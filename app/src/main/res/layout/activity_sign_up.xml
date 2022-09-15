@@ -25,6 +25,7 @@
             app:srcCompat="@drawable/messageinthebottle" />
 
         <EditText
+            android:id="@+id/etSignUpUserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -35,6 +36,7 @@
             android:padding="10dp" />
 
         <EditText
+            android:id="@+id/etSignUpEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -45,6 +47,7 @@
             android:padding="10dp" />
 
         <EditText
+            android:id="@+id/etSignUpPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"

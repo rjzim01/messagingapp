@@ -52,7 +52,7 @@
             android:layout_marginEnd="4dp"
             android:layout_marginBottom="4dp"
             android:text="12:00pm"
-            android:textSize="10dp"
+            android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline1" />
 

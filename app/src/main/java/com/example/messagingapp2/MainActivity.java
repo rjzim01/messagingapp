@@ -1,14 +1,14 @@
 package com.example.messagingapp2;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.messagingapp2.Adapters.FragmentAdapters;
 import com.example.messagingapp2.databinding.ActivityMainBinding;
@@ -49,10 +49,15 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Settings Clicked", Toast.LENGTH_SHORT).show();
                 break;
 
-                case R.id.logout:
+            case R.id.logout:
                 auth.signOut();
                     Intent intent = new Intent(MainActivity.this, SignInActivity.class);
                     startActivity(intent);
+                break;
+
+            case R.id.groupChat:
+                Intent intent2 = new Intent(MainActivity.this, GroupChatActivity.class);
+                startActivity(intent2);
                 break;
         }
         return true;
